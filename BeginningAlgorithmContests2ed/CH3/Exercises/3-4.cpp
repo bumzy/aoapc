@@ -9,7 +9,6 @@ int main(){
 	scanf("%d", &N);
 	while(N--){
 		scanf("%s", str);
-		int step = 1;
 		int len = strlen(str);
 		for(int step = 1; step <= len; ++step){
 			if(len % step == 0){

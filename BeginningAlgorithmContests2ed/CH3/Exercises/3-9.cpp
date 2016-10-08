@@ -8,7 +8,6 @@ int main(){
 	while(scanf("%s%s", s, t) == 2){
 		int len_s = strlen(s);
 		int len_t = strlen(t);
-		bool flag = false;
 		int i = 0, j = 0;
 		while(i < len_s && j < len_t){
 			if(s[i] == t[j]){
