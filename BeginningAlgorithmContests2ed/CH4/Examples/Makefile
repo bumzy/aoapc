@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS =  
+CFLAGS = -Wall
 SRCS =$(wildcard *.cpp)
 OBJS =$(patsubst %.cpp, %, $(SRCS))
 .PHONY:all clean
